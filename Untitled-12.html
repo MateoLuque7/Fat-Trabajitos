@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Secciones y Navegación</title>
+    
+    <style>
+       
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 15px;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+ 
+        section {
+            height: 100vh; 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            color: white;
+        }
+
+
+        #seccion1 {
+            background-color: #4CAF50;
+        }
+
+        #seccion2 {
+            background-color: #2196F3;
+        }
+
+
+        #footer {
+            background-color: #333;
+            height: 50vh;
+            color: white;
+        }
+
+ 
+        section, #footer {
+            scroll-margin-top: 70px; 
+        }
+    </style>
+</head>
+<body>
+
+  
+    <nav>
+        <a href="#seccion1">Sección 1</a>
+        <a href="#seccion2">Sección 2</a>
+        <a href="#footer">Pie de Página</a>
+    </nav>
+
+  
+    <section id="seccion1">
+        Sección 1
+    </section>
+
+
+    <section id="seccion2">
+        Sección 2
+    </section>
+
+   
+    <section id="footer">
+        Pie de Página
+    </section>
+
+</body>
+</html>

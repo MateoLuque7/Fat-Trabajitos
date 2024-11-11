@@ -1,0 +1,29 @@
+/* Cambiar color del h1 */
+h1 {
+    color: #9932CC; /* Puedes cambiarlo por cualquier otro color de la lista */
+}
+
+/* Cambiar el ancho de las imágenes */
+img {
+    width: 350px;
+}
+
+/* Estilo para el tercer div (thirdDiv) */
+#thirdDiv {
+    height: 500px;
+    width: 500px;
+    background-color: #ADD8E6; /* Puedes cambiarlo por el color que prefieras */
+    padding: 50px;
+    border: 5px solid #FF4500; /* Borde con cualquier ancho, color y estilo */
+}
+
+/* Estilo para el span dentro del segundo div */
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+/* Estilo común para todos los divs con clase divClass */
+.divClass {
+    margin-bottom: 20px;
+}

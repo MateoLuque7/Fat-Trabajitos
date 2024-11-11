@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal y Secundaria</title>
+    <style>
+        .pagina {
+            display: none;
+        }
+        .activo {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="principal" class="pagina activo">
+        <h1>Bienvenido a la Página Principal</h1>
+        <p>Haz clic en el siguiente enlace para ir a la página secundaria:</p>
+        <a href="#" onclick="mostrarPagina('secundaria')">Ir a la Página Secundaria</a>
+    </div>
+
+
+    <div id="secundaria" class="pagina">
+        <h1>Bienvenido a la Página Secundaria</h1>
+        <p>Haz clic en el siguiente enlace para volver a la página principal:</p>
+        <a href="#" onclick="mostrarPagina('principal')">Volver a la Página Principal</a>
+    </div>
+
+    <script>
+        function mostrarPagina(pagina) {
+            document.getElementById('principal').classList.remove('activo');
+            document.getElementById('secundaria').classList.remove('activo');
+            document.getElementById(pagina).classList.add('activo');
+        }
+    </script>
+</body>
+</html>

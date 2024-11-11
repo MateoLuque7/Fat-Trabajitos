@@ -1,0 +1,44 @@
+/* Ejercicio 1: Centrar el texto en un span */
+#ejercicioUno {
+    display: block; 
+    text-align: center; 
+}
+
+/* Ejercicio 2: Ocultar el título del ejercicio */
+#ejercicioDos {
+    display: none; 
+}
+
+/* Ejercicio 3: Posicionar la imagen dentro de la caja roja */
+#ejercicioTres {
+    position: absolute; 
+    top: 95px; 
+    left: 195px; 
+}
+
+/* Ejercicio 4: Fijar el header en la esquina superior izquierda */
+#ejercicioCuatro {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: blue; 
+}
+
+/* Ejercicio 5: Usar flexbox para el encabezado */
+#ejercicioCinco {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100%; 
+}
+
+/* Ejercicio 6: Cambiar el orden de los elementos del header */
+#ejercicioCinco {
+    flex-direction: row-reverse; 
+}
+
+/* Ejercicio 7: */
+#ejercicioSiete {
+    justify-content: space-around;
+    align-items: center;
+}
